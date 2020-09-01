@@ -1,0 +1,1058 @@
+/* Style the HTML elements according to the following instructions. 
+DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
+
+/* Give the <body> element a background of #bdc3c7*/
+
+
+/* Make the <h1> element #9b59b6*/
+
+
+/* Make all <h2> elements orange */
+
+
+/* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
+
+
+/*Change the background on every paragraph to be yellow*/
+
+
+/*Make all inputs have a 3px red border*/
+
+
+/* Give everything with the class 'hello' a white background*/
+
+
+/* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
+
+
+/*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
+
+
+/*Make only inputs with type 'text' have a gray background*/
+
+
+/* Give both <p>'s inside the 3rd <div> a pink background*/
+
+
+/* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
+
+
+/* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
+
+
+
+/*BONUS CHALLENGES*/
+/*You may need to research some other selectors and properties*/
+
+/*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
+
+
+/* Make the <label> elements all UPPERCASE without changing the HTML(definitely look this one up*/
+
+
+/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
+
+
+/*Make the <h1> element's color change to blue when hovered over */
+
+
+/*Make the <a> element's that have been visited gray */
+
+
+---------------------------------------------------------------------------------- 
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Selectors Exercise</title>
+  <link rel="stylesheet" type="text/css" href="selectors.css">
+</head>
+<body>
+  <h1>Selectors Exercise</h1>
+
+<p>PARAGRAPH NOT INSIDE A DIV</p>
+
+<div>
+  <p class="hello">I am a paragraph with a class</p>
+  <p id="special">I am a paragraph with an ID</p>
+
+  <h2>I am an awesome h2</h2>
+  
+  
+  <p>Roof party yr hella synth, Wes Anderson narwhal four dollar toast before they sold out retro lo-fi. Austin iPhone pop-up farm-to-table, PBR&B McSweeney's ennui messenger bag distillery before they sold out Portland wolf fanny pack YOLO. Locavore slow-carb trust fund farm-to-table. Pinterest gastropub lo-fi, McSweeney's trust fund VHS shabby chic ugh Austin twee. Messenger bag banjo lumbersexual, whatever 3 wolf moon XOXO normcore. Pug fanny pack 3 wolf moon, typewriter organic chia mustache scenester seitan shabby chic Blue Bottle salvia ugh iPhone. Fanny pack Williamsburg direct trade, cold-pressed disrupt flannel listicle health goth asymmetrical freegan mixtape street art pour-over whatever.</p>
+
+</div>
+
+<div>
+  <h2>Things I need to do</h2>
+
+  <ul>
+    <li>Walk Dog <input type="checkbox" checked> </li>
+    <li>Feed Dog <input type="checkbox" checked> </li>
+    <li>Wash Dog <input type="checkbox"></li>
+  </ul>
+</div>
+
+<div>
+  <h2>I am another awesome h2</h2>
+
+  <p>Cardigan Tumblr mlkshk, fap tilde 3 wolf moon Portland. Heirloom health goth taxidermy blog lo-fi selfies, post-ironic master cleanse fingerstache normcore. Kickstarter plaid twee, bespoke single-origin coffee sustainable lo-fi vinyl Pinterest pork belly <em>cronut skateboard</em> 3 wolf moon. Normcore single-origin coffee salvia, bespoke Austin swag Godard before they sold out kogi disrupt locavore. Lumbersexual Shoreditch Vice, artisan American Apparel master cleanse yr salvia vegan. Bespoke letterpress heirloom kale chips deep v four loko. Lomo sustainable put a bird on it trust fund post-ironic</p>
+
+  <p>I'm the second paragraph inside this div!</p>
+</div>
+
+<p>PARAGRAPH NOT INSIDE A DIV</p>
+
+
+<div>
+  <h2>A less awesome h2</h2>
+
+  <p>Roof party yr hella synth, Wes Anderson narwhal four dollar toast before they sold out retro lo-fi. Austin iPhone pop-up farm-to-table, PBR&B McSweeney's ennui messenger bag distillery before they sold out Portland wolf fanny pack YOLO. Locavore slow-carb trust fund farm-to-table. Pinterest gastropub lo-fi, McSweeney's trust fund VHS shabby chic ugh Austin twee. Messenger bag banjo lumbersexual, whatever 3 wolf moon XOXO normcore. Pug fanny pack 3 wolf moon, typewriter organic chia mustache scenester seitan shabby chic Blue Bottle salvia ugh iPhone. Fanny pack Williamsburg direct trade, cold-pressed disrupt flannel listicle health goth asymmetrical freegan mixtape street art pour-over whatever</p>
+
+  <p>One last paragraph here!</p>
+
+  <a href="https://news.ycombinator.com/">I am a link to Hacker News</a>
+  <a href="https://www.devsprout.io">I am a link to DevSprout</a>
+  <br>
+
+  <input type="text" name="name" /><label> Name</label><br/>
+  <input type="password" name="password" /><label> Password</label><br/>
+
+</div>
+
+<p>PARAGRAPH NOT INSIDE A DIV</p>
+
+</body>
+</html>
+----------------------------------------------------------------------------------------
+
+
+body {
+background: orange;
+}
+
+li {
+border: 2px solid red;
+}
+
+#spacial {
+    background-color: yellow;
+}
+
+.completed {
+    text-decoration-line: line-through;
+}
+
+----------------------------------------------------------------------
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <title>Todo List</title>
+     <link rel='stylesheet' type='text/css' media='screen' href='todos.css'>
+ </head>
+ <body>
+     <h1>Todo List</h1>
+
+     <ul>
+         <li class="completed"><input type="checkbox" checked> Walk Rusty </li>
+         <br>
+         <li class="completed"><input type="checkbox" checked> Buy Groceries</li>
+         <br>
+         <li id="spacial"><input type="checkbox"> Finish CSS MCQ Test Paper </li>
+     </ul>
+ </body>
+ </html>
+----------------------------------------------------------------------------------------
+body {
+background: orange;
+}
+
+li {
+border: 2px solid red;
+}
+
+#spacial {
+    background-color: yellow;
+}
+--------------------------------------------------------------------------------
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <title>Todo List</title>
+     <link rel='stylesheet' type='text/css' media='screen' href='todos.css'>
+ </head>
+ <body>
+     <h1>Todo List</h1>
+
+     <ul>
+         <li><input type="checkbox"> Walk Rusty </li>
+         <br>
+         <li><input type="checkbox"> Buy Groceries</li>
+         <br>
+         <li id="spacial"><input type="checkbox"> Finish CSS MCQ Test Paper </li>
+     </ul>
+ </body>
+ </html>
+-----------------------------------------------------------------------------
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <title>Todo List</title>
+     <link rel='stylesheet' type='text/css' media='screen' href='todos.css'>
+ </head>
+ <body>
+     <h1>Todo List</h1>
+
+     <ul>
+         <li><input type="checkbox"> Walk Rusty </li>
+         <br>
+         <li><input type="checkbox"> Buy Groceries</li>
+         <br>
+         <li><input type="checkbox"> Finish CSS MCQ Test Paper </li>
+     </ul>
+ </body>
+ </html>
+---------------------------------------------------------------------------
+h1 {
+    color: rgb(255, 00, 00,1);
+    /* border-color: purple;
+    border-width: 2px;
+    border-style: solid; */
+    border: 5px solid purple;
+}
+
+h4 {
+    color: rgb(244, 00, 00 , 0.5);
+}
+
+li {
+    color: rgb(00, 00, 255);
+}
+body {
+    background: url(https://i.pinimg.com/originals/0c/5e/52/0c5e52f20619b08ffe72aee0be167984.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+----------------------------------------------------------------------------
+h1 {
+    color: rgb(255, 00, 00,1);
+    border-color: purple;
+    border-width: 2px;
+    border-style: solid;
+}
+
+h4 {
+    color: rgb(244, 00, 00 , 0.5);
+}
+
+li {
+    color: rgb(00, 00, 255);
+}
+body {
+    background: url(https://i.pinimg.com/originals/0c/5e/52/0c5e52f20619b08ffe72aee0be167984.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+-------------------------------------------------------------
+
+h1 {
+    color: rgb(255, 00, 00,1);
+    border-color: purple;
+    border-width: 2px;
+    border-style: solid;
+}
+
+h4 {
+    color: rgb(244, 00, 00 , 0.5);
+}
+
+li {
+    color: rgb(00, 00, 255);
+}
+body {
+    background: url(https://i.pinimg.com/originals/0c/5e/52/0c5e52f20619b08ffe72aee0be167984.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+1 {
+    color: rgb(255, 00, 00,1);
+}
+
+h4 {
+    color: rgb(244, 00, 00 , 0.5);
+}
+
+li {
+    color: rgb(00, 00, 255);
+}
+body {
+    background: url(https://i.pinimg.com/originals/ab/44/71/ab4471f53db52cbf3fb7e900d8374bca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+__________________________________________________
+h1 {
+    color: rgb(255, 00, 00,1);
+}
+
+h4 {
+    color: rgb(244, 00, 00 , 0.5);
+}
+
+li {
+    color: rgb(235, 220, 16);
+    background: rgb(255, 100, 80);
+}
+body {
+    background: pink;
+}
+---------------------------------------------------------------------------------
+h1 {
+    color: rgb(255, 00, 00,1);
+}
+
+h4 {
+    color: rgb(244, 00, 00 , 0.5);
+}
+
+li {
+    color: rgb(235, 220, 16);
+}
+_____________________________________________________
+h1 {
+    color: rgb(255, 00, 00);
+}
+
+li {
+    color: rgb(235, 220, 16);
+}
+_____________________________________________________
+h1 {
+    color: purple;
+}
+
+li {
+    color: orange;
+}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <h1>About Me</h1>
+
+    <h4>My Hobbies</h4>
+    <ul>
+        <li>Playing Guitar</li>
+        <li>Cooking</li>
+        <li>Origami</li>
+    </ul>
+</body>
+
+</html>
+__________________________________________________________________
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Me</title>
+    <style>
+        h1 {
+            color: purple;
+        }
+
+        li {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>About Me</h1>
+
+    <h4>My Hobbies</h4>
+    <ul>
+        <li>Playing Guitar</li>
+        <li>Cooking</li>
+        <li>Origami</li>
+    </ul>
+</body>
+
+</html>
+_____________________________________________________
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+</head>
+<body>
+    <h1>About Me</h1>
+
+    <h4>My Hobbies</h4>
+    <ul>
+        <li style="color:purple;">Playing Guitar</li>
+        <li style="color:purple;">Cooking</li>
+        <li style="color:purple;">Origami</li>
+    </ul>
+</body>
+</html>
+_____________________________________________________
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio and Video</title>
+</head>
+<body>
+    <h1>HTML 5 Audio and Video Controls</h1>
+    <br>
+    <h2>Audio</h2>
+    <br>
+    <audio controls="controls">
+        <source src="birds.mp3" type="audio/mp3">
+            Your browser dose not support HTML 5 audio element
+    </audio>
+
+    <br><br>
+    <h2>Video</h2>
+    <br>
+    <video controls="controls">
+        <source src="A Packet's Tale. How Does the Internet Work.mp4" type="video/mp4">
+            Your browser dose not support HTML 5 video element
+    </video>
+</body>
+
+</html>
+___________________________________________________________________
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML 5 Controls</title>
+</head>
+
+<body>
+    <h1>HTML 5 input types</h1>
+    <br>
+
+    <label for="date">Date ::</label>
+    <input type="date" name="date">
+    <br><br>
+
+    <label for="date-time">Date Time Local ::</label>
+    <input type="datetime-local" name="date-time">
+    <br><br>
+
+    <label for="month">Month ::</label>
+    <input type="month" name="month">
+    <br><br>
+
+    <label for="numbersRange">Select a Number</label>
+    <input type="range" name="numbersRange" min="1" max="10" step="0.5">
+    <br><br>
+
+    <label for="time">Time ::</label>
+    <input type="time" name="time">
+    <br><br>
+
+    <label for="week">Week ::</label>
+    <input type="week" name="week">
+    <br><br>
+    
+    <label for="userFile">Select File ::</label>
+    <input type="file" name="userFile">
+    <br><br>
+    
+
+</body>
+
+</html>
+______________________________________________________________
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Complete Form Solution</title>
+</head>
+<body>
+
+  <h1>Register</h1>
+  <form>
+    <div>
+      <label for="first-name">First Name:</label>
+      <input type="text" name="first-name" id="first-name" placeholder="John" required />
+      <label for="last-name">Last Name:</label>
+      <input type="text" name="last-name" id="last-name" placeholder="Smith" required />
+    </div>
+    <br><br>
+    
+     <div>
+        <label for="radio-choice-1">Male</label>
+        <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" />
+
+        <label for="radio-choice-2">Female</label>
+        <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" />
+
+       <label for="radio-choice-3">Other</label>
+        <input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3" />
+     </div>
+     <br><br>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required placeholder="your email">
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" pattern=".{5,10}" placeholder="your password" required title="5 to 10 characters">
+    </div>
+    <br><br>
+  <!-- WARNING! DANGER! CAUTION! -->
+  <!-- DATE PICKER CRAZINESS BELOW!!!! -->
+    <div>
+      <!-- Normally we'd have a label for each field, but since these 3 select drop downs go together, we'll just use one and make it match up to the first select field (month) -->
+      <label for="select-choice">Birthday:</label>
+      <select name="select-choice" id="select-choice">
+        <option value="0" selected disabled>Month</option>
+        <option value="january">Jan</option>
+        <option value="february">Feb</option>
+        <option value="march">Mar</option>
+        <option value="april">Apr</option>
+        <option value="may">May</option>
+        <option value="june">Jun</option>
+        <option value="july">Jul</option>
+        <option value="august">Aug</option>
+        <option value="september">Sep</option>
+        <option value="october">Oct</option>
+        <option value="november">Nov</option>
+        <option value="december">Dec</option>
+      </select>
+      
+      <select name="birthday-day" id="day">
+        <option value="0" selected disabled>Day</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+      </select>
+      
+      <select name="birthday-year" id="year">
+        <option value="0" selected disabled>Year</option>
+        <option value="2015">2015</option>
+        <option value="2014">2014</option>
+        <option value="2013">2013</option>
+        <option value="2012">2012</option>
+        <option value="2011">2011</option>
+        <option value="2010">2010</option>
+        <option value="2009">2009</option>
+        <option value="2008">2008</option>
+        <option value="2007">2007</option>
+        <option value="2006">2006</option>
+        <option value="2005">2005</option>
+        <option value="2004">2004</option>
+        <option value="2003">2003</option>
+        <option value="2002">2002</option>
+        <option value="2001">2001</option>
+        <option value="2000">2000</option>
+        <option value="1999">1999</option>
+        <option value="1998">1998</option>
+        <option value="1997">1997</option>
+        <option value="1996">1996</option>
+        <option value="1995">1995</option>
+        <option value="1994">1994</option>
+        <option value="1993">1993</option>
+        <option value="1992">1992</option>
+        <option value="1991">1991</option>
+        <option value="1990">1990</option>
+        <option value="1989">1989</option>
+        <option value="1988">1988</option>
+        <option value="1987">1987</option>
+        <option value="1986">1986</option>
+        <option value="1985">1985</option>
+        <option value="1984">1984</option>
+        <option value="1983">1983</option>
+        <option value="1982">1982</option>
+        <option value="1981">1981</option>
+        <option value="1980">1980</option>
+        <option value="1979">1979</option>
+        <option value="1978">1978</option>
+        <option value="1977">1977</option>
+        <option value="1976">1976</option>
+        <option value="1975">1975</option>
+        <option value="1974">1974</option>
+        <option value="1973">1973</option>
+        <option value="1972">1972</option>
+        <option value="1971">1971</option>
+        <option value="1970">1970</option>
+        <option value="1969">1969</option>
+        <option value="1968">1968</option>
+        <option value="1967">1967</option>
+        <option value="1966">1966</option>
+        <option value="1965">1965</option>
+        <option value="1964">1964</option>
+        <option value="1963">1963</option>
+        <option value="1962">1962</option>
+        <option value="1961">1961</option>
+        <option value="1960">1960</option>
+        <option value="1959">1959</option>
+        <option value="1958">1958</option>
+        <option value="1957">1957</option>
+        <option value="1956">1956</option>
+        <option value="1955">1955</option>
+        <option value="1954">1954</option>
+        <option value="1953">1953</option>
+        <option value="1952">1952</option>
+        <option value="1951">1951</option>
+        <option value="1950">1950</option>
+        <option value="1949">1949</option>
+        <option value="1948">1948</option>
+        <option value="1947">1947</option>
+        <option value="1946">1946</option>
+        <option value="1945">1945</option>
+        <option value="1944">1944</option>
+        <option value="1943">1943</option>
+        <option value="1942">1942</option>
+        <option value="1941">1941</option>
+        <option value="1940">1940</option>
+        <option value="1939">1939</option>
+        <option value="1938">1938</option>
+        <option value="1937">1937</option>
+        <option value="1936">1936</option>
+        <option value="1935">1935</option>
+        <option value="1934">1934</option>
+        <option value="1933">1933</option>
+        <option value="1932">1932</option>
+        <option value="1931">1931</option>
+        <option value="1930">1930</option>
+        <option value="1929">1929</option>
+        <option value="1928">1928</option>
+        <option value="1927">1927</option>
+        <option value="1926">1926</option>
+        <option value="1925">1925</option>
+        <option value="1924">1924</option>
+        <option value="1923">1923</option>
+        <option value="1922">1922</option>
+        <option value="1921">1921</option>
+        <option value="1920">1920</option>
+        <option value="1919">1919</option>
+        <option value="1918">1918</option>
+        <option value="1917">1917</option>
+        <option value="1916">1916</option>
+        <option value="1915">1915</option>
+        <option value="1914">1914</option>
+        <option value="1913">1913</option>
+        <option value="1912">1912</option>
+        <option value="1911">1911</option>
+        <option value="1910">1910</option>
+        <option value="1909">1909</option>
+        <option value="1908">1908</option>
+        <option value="1907">1907</option>
+        <option value="1906">1906</option>
+        <option value="1905">1905</option>
+      </select>
+    </div>
+    <br><br>
+    <div>
+      <label for="checkbox">I agree to the terms and conditions</label>
+      <input type="checkbox" name="checkbox" id="checkbox" required/>
+    </div>
+    <br><br>
+    <div>
+      <input type="submit" value="Submit" />
+    </div>
+  </form>  
+
+</body>
+</html>
+
+----------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dropdown and Radio Button</title>
+</head>
+
+<body>
+    <form action="" method="GET">
+        <p>Do you prefer cats or dogs ?</p>
+       s" name="petchoice" value="cats">
+
+        <p>What's your current mood ?</p> <label for="dogs">Dogs ::</label>
+        <input type="radio" id="dogs" name="petchoice" value="dogs">
+        <label for="cats">Cats ::</label>
+        <input type="radio" id="cat
+        <select name="mood">
+            <option value="happy">:)</option>
+            <option value="neutral">:|</option>
+            <option value="sad">:(</option>
+        </select>
+
+        <br>
+        <label for="comments">Comments ::</label>
+        <textarea id="comments" rows="5" cols="10" name="comments"></textarea>
+        <br><br>
+        <input type="submit" value="Go !">
+    </form>
+</body>
+
+</html>
+__________________________________________________________________
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Demo</title>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <form action="" method="POST">
+        <label for="email">Email ::</label>
+        <input type="email" id="userName" required>
+
+        <label for="password">Password ::</label>
+        <input type="password" id="password" required>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>
+_______________________________________________________________________
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Demo</title>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <form action="">
+        <input type="text" placeholder="User Name">
+        <input type="password" placeholder="Password">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
+_______________________________________________________________
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML</title>
+</head>
+
+<body>
+    <h3>Table Example One</h3>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Bahubali</td>
+            <td>3 Months</td>
+        </tr>
+        <tr>
+            <td>Simba</td>
+            <td>5 Months</td>
+        </tr>
+    </table>
+    <h3>Table Example Two</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bahubali</td>
+                <td>3 Months</td>
+            </tr>
+            <tr>
+                <td>Simba</td>
+                <td>5 Months</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Table Example Three</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Telephone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bill Gates</td>
+                <td>334445521</td>
+                <td>334445521</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+____________________________________________________________________
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML</title>
+</head>
+
+<body>
+    <h3>Table Example One</h3>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Bahubali</td>
+            <td>3 Months</td>
+        </tr>
+        <tr>
+            <td>Simba</td>
+            <td>5 Months</td>
+        </tr>
+    </table>
+    <h3>Table Example Two</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bahubali</td>
+                <td>3 Months</td>
+            </tr>
+            <tr>
+                <td>Simba</td>
+                <td>5 Months</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+_______________________________________________________________________
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rusty Steele</title>
+</head>
+<body>
+
+<h1>Rusty Steele</h1>
+<p>Hi, I'm a dog.  Woof!</p>
+
+<img src="http://i.imgur.com/Zl0A6erm.jpg">
+
+<h3>Some of my favorite places:</h3>
+
+<ul>
+	<li>The beach</li>
+	<li>The dog park</li>
+	<li>The fire hydrant</li>
+</ul>
+
+<p>Make sure to follow me on <a href="">Instagram</a></p>
+</body>
+</html>
+________________________________________________________
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Divs and Span</title>
+</head>
+
+<body>
+    <div>
+        <h1>Paragraph One</h1>
+        <p> <span> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span> Quidem magni, quae ex iste voluptate dolorum unde
+            amet
+            numquam et corporis quo temporibus voluptatibus, hic ut repellat eos facere necessitatibus reiciendis.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et recusandae exercitationem ratione dolorem,
+            nulla
+            maiores eos accusantium unde optio vitae, tempora officia, delectus assumenda aut dolorum libero labore!
+            Necessitatibus, perferendis.
+        </p>
+    </div>
+
+    <div>
+        <h1>Paragraph Two</h1>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem magni, quae ex iste voluptate dolorum unde
+            amet
+            numquam et corporis quo temporibus voluptatibus, hic ut repellat eos facere necessitatibus reiciendis.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et recusandae exercitationem ratione dolorem,
+            nulla
+            maiores eos accusantium unde optio vitae, tempora officia, delectus assumenda aut dolorum libero labore!
+            Necessitatibus, perferendis.
+        </p>
+    </div>
+</body>
+
+</html>
+_______________________________________________________________________________
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Things I've Learned</title>
+</head>
+<body>
+	<h1>Things I'hv Learned</h1>
+	<h3>Internet Basics</h3>
+	<ol>
+		<li>HTTP Request</li>		
+		<li>IP Address</li> 
+		<li>Servers</li>
+	</ol>
+	<h3>HTML</h3>
+	<ul>
+		<li>Stands for <strong>Hyper Text Markup Language</strong></li>
+		<li>
+			Lots of tags
+			<ul>
+				<li>Boilerplate</li>
+				<ol>
+					<li>Doctype</li>
+					<li>HTML</li>
+					<li>Head</li>
+					<li>Body</li>
+				</ol>
+				<li>Headings</li>				
+				<li>Paragraph</li>
+				<li> <em>em</em> </li>
+				<li> <strong>strong</strong> </li>
+			</ul>
+		</li>
+	</ul>
+</body>
+</html>
+_____________________________________________________________________________
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First Page</title>
+</head>
+
+<body>
+    <h1>I'm a header</h1>
+    <h2>I'm a slightly smaller header</h2>
+    <h6>I'm the smallest header</h6>
+
+    <p>I'm a paragraph</p>
+
+    <!-- for comment ctl + / -->
+    <!-- format the paragraph  :: alt + shift + f -->
+    <p>Lorem Ipsum is <strong>simply dummy text</strong> of the printing and typesetting industry. <em>Lorem Ipsum</em>
+        has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but als
+        o the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.</p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab accusamus voluptate ut tenetur inventore
+        consequuntur impedit ipsum facere error dignissimos quisquam sunt facilis voluptatem veniam, rem laboriosam
+        consequatur mollitia. Quidem?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus aut accusantium! Vitae id nemo
+        esse nam, numquam voluptate quia doloremque enim perferendis quaerat sit obcaecati? Ipsa reiciendis rerum quia.
+    </p>
+
+    <p>Orderd List</p>
+    <ol>
+        <li>Red</li>
+        <li>Orange</li>
+        <li>Yellow
+            <ul>
+                <li>Sunflower</li>
+                <li>Banana</li>
+            </ul>
+        </li>
+    </ol>
+    <p>Unordered List</p>
+    <ul>
+        <li><strong> Red</strong> </li>
+        <li>Orange</li>
+        <li>Yellow</li>
+    </ul>
+
+</body>
+
+</html>
+
+-----------------------------------------------------
+https://www.lipsum.com/
+-----------------------------------------------------
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <title>My First Page</title>
+ </head>
+ <body>
+    <h1>I'm a header</h1>
+    <h2>I'm a slightly smaller header</h2>
+    <h6>I'm the smallest header</h6>
+
+    <p>I'm a paragraph</p>
+
+    <h2></h2>
+ </body>
+ </html>
+
+
+
+
+MDN Link
+https://developer.mozilla.org/en-US/docs/Web/HTML
+
+Access Url:  
+https://cloudlabs.nuvepro.com/company/PragatiSoftware/home 
+
+Login Details
+https://docs.google.com/spreadsheets/d/1CApy-sl9YXyrV0F71gvg60h6Y9MtD4qzPepSikCuM9I/edit?usp=sharing
+
+https://www.youtube.com/watch?v=ewrBalT_eBM
